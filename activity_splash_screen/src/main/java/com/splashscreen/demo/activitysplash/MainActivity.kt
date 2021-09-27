@@ -1,7 +1,9 @@
-package com.splashscreen.demo.splashscreenempty
+package com.splashscreen.demo.activitysplash
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.splashscreen.demo.splashscreenempty.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
