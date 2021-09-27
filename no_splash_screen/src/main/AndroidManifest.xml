@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NoSplashScreen">
         <activity
-            android:name=".MainActivity"
+            android:name="com.splashscreen.demo.nosplash.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
