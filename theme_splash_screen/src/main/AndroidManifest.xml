@@ -7,10 +7,10 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true">
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App.Splash">
         <activity
-            android:name="com.splashscreen.demo.activitysplash.SplashScreenActivity"
-            android:theme="@style/Theme.App.Splash"
+            android:name="com.splashscreen.demo.themesplash.MainActivity"
             android:exported="true">
 
             <intent-filter>
@@ -20,10 +20,6 @@
             </intent-filter>
 
         </activity>
-        <activity
-            android:name="com.splashscreen.demo.activitysplash.MainActivity"
-            android:exported="false"
-            android:theme="@style/Theme.App" />
     </application>
 
 </manifest>
