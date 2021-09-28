@@ -7,4 +7,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "NoSplashScreen"
-include ':no_splash_screen', ':activity_splash_screen', ':theme_splash_screen', ':api_splash_screen'
+include ':no_splash_screen', ':activity_splash_screen', ':theme_splash_screen', ':api_splash_screen',
+        'api_splash_screen_compat'
