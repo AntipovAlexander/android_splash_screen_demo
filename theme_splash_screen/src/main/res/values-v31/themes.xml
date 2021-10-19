@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.App.Splash" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_animated_splash</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">#85A3C8</item>
+        <item name="android:windowSplashScreenAnimationDuration">2000</item>
+        <item name="android:windowSplashScreenBackground">@color/ic_launcher_background</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/ic_linkedin_brand</item>
+    </style>
+
+</resources>
